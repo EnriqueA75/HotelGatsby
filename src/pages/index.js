@@ -1,9 +1,12 @@
 import * as React from "react"
+import ImagenPrincipal from "../components/ImagenPrincipal"
 import Layout from '../components/Layout'
+import ContenidoInicio from "../components/ContenidoInicio"
 
 const IndexPage = () => (
     <Layout>
-        <h1>GaTsby Hotel</h1>
+        <ImagenPrincipal/>
+        <ContenidoInicio/>
     </Layout>
 )
 
