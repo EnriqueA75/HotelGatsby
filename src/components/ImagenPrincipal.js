@@ -48,7 +48,7 @@ const ImagenPrincipal = () => {
             }
         }
     `)
-        console.log(image)
+        // console.log(image)
     return ( 
         <ImageBackGround tag="section" fluid={image.sharp.fluid} fadeIn="soft">
             <TextoImagen>
