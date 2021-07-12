@@ -1,7 +1,7 @@
 import React from 'react';
 import { css } from '@emotion/react';
 
-const Footer = () => {
+const Footer = ({title}) => {
 
     const year = new Date().getFullYear()
 
@@ -11,6 +11,7 @@ const Footer = () => {
                 /* position: fixed; */
                 bottom: 0;
                 width: 100%;
+                margin-top: 5rem;
             `}>
                 <p css={css`
                     text-align: center;
@@ -19,7 +20,7 @@ const Footer = () => {
                     margin: 0;
                     position: relative;
                     padding: 1rem;
-                `}>Hotel Gatsby, todos los derechos reservados {year}&copy;</p>
+                `}>{title} - todos los derechos reservados {year}&copy;</p>
             </div>
         </>
      );

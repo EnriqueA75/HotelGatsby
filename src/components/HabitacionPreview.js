@@ -19,14 +19,14 @@ const Boton = styled(Link)`
 const HabitacionPreview = ({habitacion}) => {
 
     const {titulo, imagen, contenido, slug} = habitacion
-    console.log(habitacion)
+    // console.log(habitacion)
     return ( 
         <div css={css`
             border: 1px solid #e1e1e1;
             margin-bottom: 2rem;
         `}>
             <img css={css`
-                max-width: 378px;
+                width: 100%;
             `}            
             src={imagen} alt="img"/>
             <div css={css`
